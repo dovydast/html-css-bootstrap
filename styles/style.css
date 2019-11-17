@@ -1,0 +1,212 @@
+*{
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-color: #86509c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    
+}
+
+nav{
+ 
+  background-color: #86509c;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link { 
+  color:#fff;
+}
+
+
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link.active{
+    background-color:#532866;
+    color:white;
+}
+
+.myButton {
+	background-color:#eb7d4a;
+	border-radius:2px;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+    padding:15px 45px;
+    width: 30%;
+}
+
+.greenButton {
+	background-color:#17c1a4;
+	border-radius:2px;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+    padding:15px 45px;
+    width: 20%;
+}
+
+.blueButton{
+    background-color:#30bae8;
+    border-radius:2px;
+	display:block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:12px;
+    padding:15px 45px;
+    width: 20%;
+}
+
+@media only screen and (max-width: 900px) {
+    .greenButton {
+        width: 40%;
+    }
+    .blueButton{
+        width: 40%;
+          
+    }
+  }
+
+.myButton:hover{
+    text-decoration: none;
+    color:white;
+}
+
+.service{
+    background-color:#17c1a4;
+    min-height: 500px;
+}
+
+.services-section img, .person img{
+    display:block;
+    margin:auto;
+    height: 90px;
+}
+
+.person img{
+    height: 150px;
+}
+
+.socials img{
+    height: 32px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+  
+    
+}
+
+.rounded-circle{
+    position: relative;
+    bottom: 20px;
+}
+
+.blue{
+    color:blue;
+}
+
+.team{
+    background-color:#e7f2f8;
+}
+
+.personText{
+    color:#3B465C;
+}
+
+.portfolio{
+    background-color:#ffdc98;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #ffffff;
+}
+
+.nav-pills .nav-link {
+    background-color:#ccb07c;
+}
+
+.nav-pills .nav-link:hover {
+    background-color:#fff;
+}
+
+a{
+    color:#000;
+}
+
+a:hover{
+    color:#000;
+    
+}
+
+.centruoti{
+    display:block;
+    margin: auto;
+}
+
+.people{
+    background-color:#d74681;
+}
+
+
+.box{
+    display:flex;
+}
+
+.info{
+    margin-left: 30px;
+}
+.moveup{
+    font-size:10px;
+    color:#eb9b96;
+    position: relative;
+    top: -19px;
+}
+
+
+.contacts{
+    background-color:#3C549A;
+}
+
+.form-group{
+    margin-top:3%;
+}
+
+.form-control{
+    background-color: #293974;
+    border: 1px solid #0a345f;
+}
+
+footer{
+ background-color:#344b8e;
+}
+
+footer ul li {
+    padding:20px;
+    color:#fff;
+}
+
+.nav-link{
+    color:white;
+}
+
+.nav-link:hover{
+    color:cyan;
+}
+
+.nav-link:active{
+    color:cyan;
+}
